@@ -2,13 +2,11 @@
   "name": "json-server",
   "version": "1.0.0",
   "description": "json-server for ticketo",
-  "main": "server.js",
-  "scripts": { 
-    "start": "node server.js" 
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
   },
-  "author": "Emmanuel Momoh",
-  "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.4"
   }
 }
